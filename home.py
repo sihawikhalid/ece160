@@ -4,12 +4,13 @@ import sqlalchemy as sa
 import pandas as pd
 import datetime as dt
 
-dbUser = "msuece160"
-dbpw = "bria121413"
-host = "msuece160.mysql.pythonanywhere-services.com"
-dbname = "msuece160$default"
+# Database credentials
+dbUser = "database user"
+dbpw = "user password"
+host = "database host server"
+dbname = "database name"
 
-
+# Name of table to store the posted information
 tbname_rht_readings = "rht_readings"
 
 print("Acessing database....")
